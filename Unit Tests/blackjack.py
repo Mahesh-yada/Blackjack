@@ -1,9 +1,4 @@
-# DO NOT CHANGE OR REMOVE THIS COMMENT, and do not change this import otherwise all tests will fail.
-# Use randint to generate random cards. 
 from blackjack_helper import *
-
-# Write all of your part 3 code below this comment. DO NOT CHANGE OR REMOVE THIS COMMENT.
-
 # USER'S TURN
 user_hand = draw_starting_hand("YOUR")
 should_hit = 'y'
