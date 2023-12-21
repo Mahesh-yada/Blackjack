@@ -1,7 +1,4 @@
-# DO NOT CHANGE OR REMOVE THIS COMMENT, and do not change this import otherwise all tests will fail.
 from blackjack_helper import *
-
-# Write all of your part 3 code below this comment. DO NOT CHANGE OR REMOVE THIS COMMENT.
 
 # draw_starting_hand("YOUR") prints a turn message and assigns the starting hand value to user_hand_value.
 user_hand_value = draw_starting_hand("YOUR") 
