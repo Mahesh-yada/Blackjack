@@ -10,7 +10,7 @@ Scoring:
 
 In determining hand totals, cards get the following values:
 
-    All face cards (Jacks, Queens, and Kings) are worth 10
+    All face cards (Jacks, Queens, and Kings) are worth 10.
     Aces can count as either 1 or 11, but for the purposes of our blackjack program, aces are always worth 11.
     All other cards have the value shown on the card (ie 2 will be worth 2, 3 will be worth 3, and so on).
 
