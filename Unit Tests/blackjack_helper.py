@@ -1,4 +1,4 @@
-from random import randint
+from random import randint *
 
 # Prints the given card's official name in the form "Drew a(n) ___".
 # If the input card is invalid, prints "BAD CARD"
