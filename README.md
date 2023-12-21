@@ -1,4 +1,4 @@
-##Introduction: 
+#Introduction: 
 
 Blackjack is a popular gambling card game in which players attempt to make a hand as close as possible to a sum of 21 without going over.
 
@@ -6,7 +6,7 @@ Each player is dealt an initial hand of 2 cards. The first player may then choos
 
 The dealer plays their turn last. The dealer plays by a fixed set of rules. They must stand if their hand is 17 or over. Otherwise, they must continue to hit until they reach 17 or bust.
 
-Scoring:
+##Scoring:
 
 In determining hand totals, cards get the following values:
 
@@ -14,7 +14,7 @@ In determining hand totals, cards get the following values:
     Aces can count as either 1 or 11, but for the purposes of our blackjack program, aces are always worth 11.
     All other cards have the value shown on the card (ie 2 will be worth 2, 3 will be worth 3, and so on).
 
-Outcomes:
+##Outcomes:
 
 Each player (excluding the dealer) has one of the three possible outcomes:
 
