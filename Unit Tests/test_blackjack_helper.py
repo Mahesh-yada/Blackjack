@@ -74,7 +74,6 @@ class TestBlackjackHelper(unittest.TestCase):
     self.assertEqual(get_print(print_end_game_status, 23, 23), "-----------\nGAME RESULT\n-----------\nDealer wins!\n")
     self.assertEqual(get_print(print_end_game_status, 23, 19), "-----------\nGAME RESULT\n-----------\nDealer wins!\n")
     self.assertEqual(get_print(print_end_game_status, 5, 23), "-----------\nGAME RESULT\n-----------\nYou win!\n")
-
-
+    
 if __name__ == '__main__':
     unittest.main()
