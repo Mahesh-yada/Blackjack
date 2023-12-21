@@ -1,7 +1,4 @@
-#Write all of your part 4 code below this comment. DO NOT CHANGE OR REMOVE THIS COMMENT.
-
 from random import randint
-# Write all of your part 3 code below this comment. DO NOT CHANGE OR REMOVE THIS COMMENT.
 
 # Prints the given card's official name in the form "Drew a(n) ___".
 # If the input card is invalid, prints "BAD CARD"
@@ -13,7 +10,6 @@ from random import randint
 #   none
 
 def print_card_name(card_rank):
-    # Implement card_name function here
   if card_rank > 13 or card_rank < 1:
      print("BAD CARD")
      return
