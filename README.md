@@ -24,8 +24,11 @@ Push: Player's hand value matches that of the dealer.
 Project Structure:
 
 blackjack.py: Main script implementing the Blackjack game logic.
+
 player.py: Class representing a player in the game.
+
 deck.py: Class representing a deck of cards.
+
 README.md: Documentation and usage instructions.
 
 Usage:
