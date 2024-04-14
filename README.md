@@ -1,26 +1,48 @@
-Introduction: 
+This project implements a simple simulator for the popular gambling card game, Blackjack. Blackjack is a game of skill and strategy where players aim to create a hand as close as possible to a sum of 21 without exceeding it. The simulator provides a platform to play Blackjack against a computerized dealer, following the standard rules of the game.
 
-Blackjack is a popular gambling card game in which players attempt to make a hand as close as possible to a sum of 21 without going over.
+Features:
 
-Each player is dealt an initial hand of 2 cards. The first player may then choose to "hit" (draw another card into their hand) or "stand" (keep their current hand), and play passes to the next player. A player may hit as many times as they want, but if they go over 21, they "bust" - or automatically lose.
+Gameplay Mechanics:
 
-The dealer plays their turn last. The dealer plays by a fixed set of rules. They must stand if their hand is 17 or over. Otherwise, they must continue to hit until they reach 17 or bust.
+Players are dealt an initial hand of 2 cards.
+Players can choose to "hit" (draw another card) or "stand" (keep their current hand).
+Dealer plays according to fixed rules: stand on 17 or higher, hit otherwise.
 
-Scoring:
+Scoring System:
 
-In determining hand totals, cards get the following values:
-
-    All face cards (Jacks, Queens, and Kings) are worth 10.
-    Aces can count as either 1 or 11, but for the purposes of our blackjack program, aces are always worth 11.
-    All other cards have the value shown on the card (ie 2 will be worth 2, 3 will be worth 3, and so on).
+Face cards (Jacks, Queens, Kings) are worth 10 points each.
+Aces are worth 11 points.
+All other cards are worth their numerical value.
 
 Outcomes:
 
-Each player (excluding the dealer) has one of the three possible outcomes:
+Players can experience one of three outcomes: Win, Lose, or Push.
+Win: Player has a hand value greater than the dealer without busting.
+Lose: Player busts or has a hand value less than the dealer.
+Push: Player's hand value matches that of the dealer.
 
-    Lose: any player who busts or has a hand value less than the dealer, loses.
-    Win: any player who does not bust and has a hand value greater than the dealer, wins.
-    Push: any player who does not bust and has a hand value matching the dealer, pushes (ties).
+Project Structure:
+
+blackjack.py: Main script implementing the Blackjack game logic.
+player.py: Class representing a player in the game.
+deck.py: Class representing a deck of cards.
+README.md: Documentation and usage instructions.
+
+Usage:
+
+Run blackjack.py.
+Follow the prompts to play Blackjack against the computerized dealer.
+Make choices to hit or stand based on your hand and the dealer's visible card.
+The game will determine the outcome based on the rules and display the result.
+
+Contributing:
+
+Contributions, bug fixes, and suggestions are welcome.
+Fork the repository, make your changes, and submit a pull request.
+
+License:
+
+This project is licensed under the MIT License.
 
 
 If you'd prefer a video explanation of the game check one out here: https://www.youtube.com/watch?v=qd5oc9hLrXg
